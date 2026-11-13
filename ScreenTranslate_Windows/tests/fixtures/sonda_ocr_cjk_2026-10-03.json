@@ -1,0 +1,92 @@
+[
+  {
+    "amostra": "en",
+    "esperado": "Hello world, this is a test.",
+    "lido": "Hello world, this  is a test.",
+    "cer": 0.0,
+    "blocos": 3,
+    "score_medio": 0.985,
+    "segundos": 3.14,
+    "fonte": "DejaVuSans.ttf"
+  },
+  {
+    "amostra": "pt (acentos)",
+    "esperado": "Olá, você já está aqui? Não é coração, é emoção.",
+    "lido": "Ola, vocé já e está  aqui? Nao é coracäo, é emc",
+    "cer": 0.282,
+    "blocos": 5,
+    "score_medio": 0.891,
+    "segundos": 1.97,
+    "fonte": "DejaVuSans.ttf"
+  },
+  {
+    "amostra": "es (acentos)",
+    "esperado": "¿Qué tal? Mañana será otro día, señor.",
+    "lido": "iQué  tal? Manana : será  otro dia, S senor.",
+    "cer": 0.188,
+    "blocos": 7,
+    "score_medio": 0.939,
+    "segundos": 1.98,
+    "fonte": "DejaVuSans.ttf"
+  },
+  {
+    "amostra": "ja (hira+kanji)",
+    "esperado": "こんにちは世界。これはテストです。",
+    "lido": "世界。",
+    "cer": 0.824,
+    "blocos": 1,
+    "score_medio": 0.995,
+    "segundos": 1.68,
+    "fonte": "NotoSansCJK-Regular.ttc"
+  },
+  {
+    "amostra": "ja (katakana)",
+    "esperado": "スクリーンホンヤクノテスト",
+    "lido": "",
+    "cer": 1.0,
+    "blocos": 0,
+    "score_medio": 0.0,
+    "segundos": 1.62,
+    "fonte": "NotoSansCJK-Regular.ttc"
+  },
+  {
+    "amostra": "ja (vertical, empilhado)",
+    "esperado": "縦書きの日本語です",
+    "lido": "書志 の日本語 寸",
+    "cer": 0.444,
+    "blocos": 3,
+    "score_medio": 0.894,
+    "segundos": 1.31,
+    "fonte": "NotoSansCJK-Regular.ttc"
+  },
+  {
+    "amostra": "ko (hangul)",
+    "esperado": "안녕하세요 세계. 이것은 테스트입니다.",
+    "lido": ".",
+    "cer": 0.944,
+    "blocos": 1,
+    "score_medio": 0.735,
+    "segundos": 1.67,
+    "fonte": "NotoSansCJK-Regular.ttc"
+  },
+  {
+    "amostra": "zh-Hans",
+    "esperado": "你好世界，这是一个测试。",
+    "lido": "你好世界，辽 这是一个测试。",
+    "cer": 0.083,
+    "blocos": 2,
+    "score_medio": 0.955,
+    "segundos": 1.74,
+    "fonte": "NotoSansCJK-Regular.ttc"
+  },
+  {
+    "amostra": "zh-Hant",
+    "esperado": "你好世界，這是一個測試。",
+    "lido": "你好世界， 這是一個測試。",
+    "cer": 0.0,
+    "blocos": 2,
+    "score_medio": 0.969,
+    "segundos": 1.61,
+    "fonte": "NotoSansCJK-Regular.ttc"
+  }
+]

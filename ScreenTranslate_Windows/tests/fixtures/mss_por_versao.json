@@ -1,0 +1,61 @@
+{
+  "coletado_em": "2026-10-17",
+  "fonte": "wheels do PyPI (pip download --no-deps)",
+  "versoes": {
+    "9.0.1": {
+      "arquivo_do_backend_windows": "windows.py",
+      "handles_por_thread": true,
+      "dcs_guardados_no_objeto": false,
+      "define_dpi_no_construtor": true,
+      "usa_captureblt": true,
+      "monitores_trazem_is_primary": false,
+      "tem_propriedade_primary_monitor": false,
+      "exporta_MSS_no_topo": false,
+      "mss_mss_obsoleto": false
+    },
+    "9.0.2": {
+      "arquivo_do_backend_windows": "windows.py",
+      "handles_por_thread": true,
+      "dcs_guardados_no_objeto": false,
+      "define_dpi_no_construtor": true,
+      "usa_captureblt": true,
+      "monitores_trazem_is_primary": false,
+      "tem_propriedade_primary_monitor": false,
+      "exporta_MSS_no_topo": false,
+      "mss_mss_obsoleto": false
+    },
+    "10.0.0": {
+      "arquivo_do_backend_windows": "windows.py",
+      "handles_por_thread": true,
+      "dcs_guardados_no_objeto": false,
+      "define_dpi_no_construtor": true,
+      "usa_captureblt": true,
+      "monitores_trazem_is_primary": false,
+      "tem_propriedade_primary_monitor": false,
+      "exporta_MSS_no_topo": false,
+      "mss_mss_obsoleto": false
+    },
+    "10.1.0": {
+      "arquivo_do_backend_windows": "windows.py",
+      "handles_por_thread": true,
+      "dcs_guardados_no_objeto": false,
+      "define_dpi_no_construtor": true,
+      "usa_captureblt": true,
+      "monitores_trazem_is_primary": false,
+      "tem_propriedade_primary_monitor": false,
+      "exporta_MSS_no_topo": false,
+      "mss_mss_obsoleto": false
+    },
+    "10.2.0": {
+      "arquivo_do_backend_windows": "windows/gdi.py",
+      "handles_por_thread": false,
+      "dcs_guardados_no_objeto": true,
+      "define_dpi_no_construtor": true,
+      "usa_captureblt": true,
+      "monitores_trazem_is_primary": true,
+      "tem_propriedade_primary_monitor": true,
+      "exporta_MSS_no_topo": true,
+      "mss_mss_obsoleto": true
+    }
+  }
+}

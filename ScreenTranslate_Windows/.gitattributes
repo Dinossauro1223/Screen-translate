@@ -1,0 +1,2 @@
+# Sem conversao de fim de linha: os testes comparam o SHA-256 dos arquivos, e os .bat precisam ficar em CRLF.
+* -text

@@ -1,0 +1,9 @@
+# Dependências SOMENTE dos testes/ferramentas de auditoria (não são dependências do aplicativo).
+pytest>=8.0
+packaging>=23.0
+pyflakes>=3.0
+ruff>=0.5            # lint (tests/phase1)
+mypy>=1.10           # verificação de tipos (tests/phase1)
+numpy>=1.24          # renderização do overlay nos testes
+pillow>=10.0         # imagem de teste do OCR e tools/sonda_ocr_cjk.py
+hypothesis>=6.100       # testes de propriedade (tests/phase3 em diante)

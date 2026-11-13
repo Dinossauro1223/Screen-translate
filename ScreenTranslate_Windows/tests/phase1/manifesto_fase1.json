@@ -1,0 +1,84 @@
+{
+  "fase": 1,
+  "arquivos": {
+    "Abrir_Screen_Translate.bat": {
+      "decisao": "alterado",
+      "sha256": "d82a1dce51c07aab5969b09ba38a70c029f57841c43b374d5c32d3482aca0c53"
+    },
+    "Criar_Atalho_Desktop.bat": {
+      "decisao": "mantido",
+      "sha256": "1935610966fd8c69893a65b3f00c86f13c467772339df66d535a4d361f1c0f99"
+    },
+    "GUIA_RAPIDO_WINDOWS.md": {
+      "decisao": "mesclado",
+      "sha256": "87b693581c45f543e132249d94dc8d839576457a618ac4476a10230c934700ee"
+    },
+    "README.md": {
+      "decisao": "reescrito",
+      "sha256": "af50f34af6ed3b654e7df07e582460e1762d1daf1c43701db8233cae1e5cd0a1"
+    },
+    "capture.py": {
+      "decisao": "alterado",
+      "sha256": "6ae51d3aa43409b9c9259f46d5cff8565b968300beaa147d909abd4c2e4580ee"
+    },
+    "config.py": {
+      "decisao": "alterado",
+      "sha256": "03db88ed2410fdafdc001986176ebd5b87256e90484c26848ae209e976f5cfd4"
+    },
+    "context_ai.py": {
+      "decisao": "alterado",
+      "sha256": "10fb5f4772a76a8891292d4415b1975cf9b8ef9a62fbac7bceb23ffc29d6e330"
+    },
+    "install_language_pack.py": {
+      "decisao": "alterado",
+      "sha256": "24b62f756c7413f5c2ccdda6577e577b2cceba6406858c69b9532d286b9d6edf"
+    },
+    "main.py": {
+      "decisao": "alterado",
+      "sha256": "4a0a42394be86bb2148bf5394395e143cb42e49f60da531b0828c715e21e8418"
+    },
+    "ocr_engine.py": {
+      "decisao": "alterado",
+      "sha256": "7149dd55924698ecaf2a889294c4a28c01eca4367be04925cdcd89bb42a84866"
+    },
+    "overlay.py": {
+      "decisao": "alterado",
+      "sha256": "ea0519b966a44d3044453766b414d0789eb7a0a416bfc85d5e36f4444a917b17"
+    },
+    "requirements.txt": {
+      "decisao": "mantido",
+      "sha256": "29b0dc2ce3704b319770b2d50ec8fc465da40c0c7991c2656559808f613eb6f2"
+    },
+    "translator.py": {
+      "decisao": "alterado",
+      "sha256": "9b80aac8322a0e7d76654f80434915260b07fd05ca5bc98dbb003bc6e61fe9c7"
+    },
+    "worker.py": {
+      "decisao": "alterado",
+      "sha256": "8c102252034b480a718859c03e31935490fe6c1a581188f652048b6d34555168"
+    }
+  },
+  "criados": {
+    "docs/legado/README_original_Fase0.md": {
+      "sha256": "fc2de11593895bd91223472aec8ca88001e03cd5ff3dfd6b007281c48eedc56a",
+      "origem": "README.md"
+    },
+    "docs/legado/GUIA_RAPIDO_WINDOWS_original_Fase0.md": {
+      "sha256": "ebd3fba51b52d32cc0d875e18faf98b8a2b0c5320e1b121bd8bdf174a5bd1c0a",
+      "origem": "GUIA_RAPIDO_WINDOWS.md"
+    },
+    "docs/legado/LEIA-ME.md": {
+      "sha256": "cf673e05d2f96eaa7232cf3c0f3e2eb1cc3481eba60d3c51226be499e0d35f0d"
+    },
+    "ruff.toml": {
+      "sha256": "72dc045d311d0342b7e4210e6a912c257da43ef40c452fa5dcf88a034872012c"
+    },
+    "mypy.ini": {
+      "sha256": "4860551490f2c3584b98daa5b580835c4926719b1e6618703edb8c3edee42b96"
+    }
+  },
+  "removidos": [],
+  "simbolos_removidos": [
+    "translator.Translator.translate_batch"
+  ]
+}

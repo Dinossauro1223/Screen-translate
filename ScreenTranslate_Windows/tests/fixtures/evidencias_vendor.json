@@ -1,0 +1,146 @@
+{
+  "gerado_em": "2026-10-03",
+  "fonte": "wheels publicados no PyPI",
+  "argostranslate": {
+    "1.9.6": {
+      "arquivo": "argostranslate-1.9.6-py3-none-any.whl",
+      "requires_dist": [
+        "ctranslate2 (<5,>=4.0)",
+        "packaging",
+        "sacremoses (==0.0.53)",
+        "sentencepiece (==0.2.0)",
+        "stanza (==1.1.1)"
+      ],
+      "requires_python": ">=3.5"
+    },
+    "1.11.0": {
+      "arquivo": "argostranslate-1.11.0-py3-none-any.whl",
+      "requires_dist": [
+        "ctranslate2 (<5,>=4.0)",
+        "minisbd",
+        "packaging",
+        "sacremoses (<0.2,>=0.0.53)",
+        "sentencepiece (<0.3,>=0.2.0)",
+        "spacy",
+        "stanza (==1.10.1)"
+      ],
+      "requires_python": ">=3.5",
+      "settings_linhas_dados": [
+        "40: home_dir = Path.home()",
+        "43: home_dir = Path(os.environ[\"SNAP_USER_DATA\"])",
+        "45: data_dir = (",
+        "46: Path(os.getenv(\"XDG_DATA_HOME\", default=home_dir / \".local\" / \"share\"))",
+        "49: os.makedirs(data_dir, exist_ok=True)",
+        "52: legacy_package_data_dir = Path(",
+        "53: os.getenv(\"ARGOS_TRANSLATE_PACKAGE_DIR\", default=data_dir / \"packages\")",
+        "57: Path(os.getenv(\"XDG_CONFIG_HOME\", default=home_dir / \".config\")) / \"argos-translate\"",
+        "62: Path(os.getenv(\"XDG_CACHE_HOME\", default=home_dir / \".local\" / \"cache\"))",
+        "137: package_data_dir = Path(",
+        "138: get_setting(\"ARGOS_PACKAGES_DIR\", default=data_dir / \"packages\")",
+        "140: os.makedirs(package_data_dir, exist_ok=True)",
+        "159: local_package_index = data_dir / \"index.json\"",
+        "228: package_dirs = [package_data_dir]"
+      ],
+      "settings_indice_remoto": [
+        "15: export ARGOS_PACKAGE_INDEX=\"https://raw.githubusercontent.com/argosopentech/argospm-index/main/\"",
+        "27: \"ARGOS_PACKAGES_INDEX\": \"https://raw.githubusercontent.com/argosopentech/argospm-index/main/\",",
+        "134: default=\"https://raw.githubusercontent.com/argosopentech/argospm-index/main/\",",
+        "157: remote_package_index = package_index + \"index.json\""
+      ],
+      "translate_pivo": [
+        "243: class CompositeTranslation(ITranslation):",
+        "620: # Pivot through intermediate languages to add translations",
+        "632: composite_translation = CompositeTranslation("
+      ],
+      "translate_imports_topo": [
+        "1: from __future__ import annotations",
+        "3: import functools",
+        "4: from typing import List",
+        "6: import ctranslate2",
+        "8: from ctranslate2 import Translator",
+        "10: from argostranslate import apis, fewshot, package, sbd, settings",
+        "11: from argostranslate.models import ILanguageModel",
+        "12: from argostranslate.package import Package",
+        "13: from argostranslate.sbd import SpacySentencizerSmall, StanzaSentencizer, MiniSBDSentencizer",
+        "14: from argostranslate.utils import info"
+      ],
+      "sbd_imports_topo": [
+        "1: from __future__ import annotations",
+        "3: import os",
+        "4: from difflib import SequenceMatcher",
+        "5: from typing import List",
+        "12: import stanza",
+        "13: from minisbd import SBDetect, models as minisbd_models",
+        "15: from argostranslate import package, settings",
+        "16: from argostranslate.networking import cache_spacy",
+        "17: from argostranslate.package import Package",
+        "18: from argostranslate.utils import info, warning"
+      ]
+    }
+  },
+  "mss": {
+    "9.0.1": {
+      "arquivo": "mss-9.0.1-py3-none-any.whl",
+      "windows_linhas": [
+        "35: CAPTUREBLT = 0x40000000",
+        "109: self._handles = local()",
+        "159: ctypes.windll.shcore.SetProcessDpiAwareness(2)",
+        "162: self.user32.SetProcessDPIAware()",
+        "249: gdi.BitBlt(memdc, 0, 0, width, height, srcdc, monitor[\"left\"], monitor[\"top\"], SRCCOPY | CAPTUREBLT)"
+      ]
+    },
+    "10.2.0": {
+      "arquivo": "mss-10.2.0-py3-none-any.whl",
+      "windows_linhas": [
+        "45: CAPTUREBLT = 0x40000000",
+        "207: self._srcdc = self.user32.GetWindowDC(0)",
+        "235: self._srcdc = None",
+        "256: ctypes.windll.shcore.SetProcessDpiAwareness(2)",
+        "259: self.user32.SetProcessDPIAware()",
+        "380: gdi.BitBlt(memdc, 0, 0, width, height, srcdc, monitor[\"left\"], monitor[\"top\"], SRCCOPY | CAPTUREBLT)"
+      ]
+    }
+  },
+  "rapidocr_onnxruntime": {
+    "1.4.4": {
+      "arquivo": "rapidocr_onnxruntime-1.4.4-py3-none-any.whl",
+      "requires_dist": [
+        "pyclipper>=1.2.0",
+        "opencv-python>=4.5.1.48",
+        "numpy<3.0.0,>=1.19.5",
+        "six>=1.15.0",
+        "Shapely!=2.0.4,>=1.7.1",
+        "PyYAML",
+        "Pillow",
+        "onnxruntime>=1.7.0",
+        "tqdm"
+      ],
+      "requires_python": ">=3.6,<3.13",
+      "modelos_no_wheel": [
+        {
+          "arquivo": "rapidocr_onnxruntime/models/ch_PP-OCRv4_det_infer.onnx",
+          "bytes": 4745517
+        },
+        {
+          "arquivo": "rapidocr_onnxruntime/models/ch_PP-OCRv4_rec_infer.onnx",
+          "bytes": 10857958
+        },
+        {
+          "arquivo": "rapidocr_onnxruntime/models/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+          "bytes": 585532
+        }
+      ],
+      "outros_dados_nao_py": [
+        "rapidocr_onnxruntime/config.yaml",
+        "rapidocr_onnxruntime/models/ch_PP-OCRv4_det_infer.onnx",
+        "rapidocr_onnxruntime/models/ch_PP-OCRv4_rec_infer.onnx",
+        "rapidocr_onnxruntime/models/ch_ppocr_mobile_v2.0_cls_infer.onnx"
+      ],
+      "config_yaml_linhas_modelo": [
+        "model_path: models/ch_PP-OCRv4_det_infer.onnx",
+        "model_path: models/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+        "model_path: models/ch_PP-OCRv4_rec_infer.onnx"
+      ]
+    }
+  }
+}

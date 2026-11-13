@@ -1,0 +1,156 @@
+{
+  "fase": 3.2,
+  "arquivos": {
+    "Abrir_Screen_Translate.bat": {
+      "decisao": "mantido",
+      "sha256": "8fb00e4838ce0c9fb65db87efc658a51c085971e60eacb38e471827cb2402086"
+    },
+    "Criar_Atalho_Desktop.bat": {
+      "decisao": "mantido",
+      "sha256": "b4c7147ac4e1bf0aca13b6778e3d808694190f5ddd411da285b820352384a061"
+    },
+    "GUIA_RAPIDO_WINDOWS.md": {
+      "decisao": "alterado",
+      "sha256": "90feb77f800ea1b0d5d589f105133ed0cabe3144a294b60a2f511b45117065ab"
+    },
+    "README.md": {
+      "decisao": "alterado",
+      "sha256": "1996080634cb9a750564b2edb984c04f10a15cf0df8c9933d315a047e4e044fd"
+    },
+    "capture.py": {
+      "decisao": "mantido",
+      "sha256": "6c3d21f871620ce6cd3cc1801c7ee2642e124db2b779bb99340cb520b8b3e558"
+    },
+    "config.py": {
+      "decisao": "alterado",
+      "sha256": "928f92ad5199b43f6caf441a9a7a47d10b82192bb25d3e1e5813a1a51cab646f"
+    },
+    "context_ai.py": {
+      "decisao": "mantido",
+      "sha256": "10fb5f4772a76a8891292d4415b1975cf9b8ef9a62fbac7bceb23ffc29d6e330"
+    },
+    "install_language_pack.py": {
+      "decisao": "mantido",
+      "sha256": "6604f794b1da6ecaac1ea63a65e234df6ac9baee7deacdc5d92438681d4dd182"
+    },
+    "main.py": {
+      "decisao": "alterado",
+      "sha256": "f900867fbb5a2c36fc5abc8ae565676289c32d600ae7511f71d3eeb4183736c7"
+    },
+    "ocr_engine.py": {
+      "decisao": "mantido",
+      "sha256": "7149dd55924698ecaf2a889294c4a28c01eca4367be04925cdcd89bb42a84866"
+    },
+    "overlay.py": {
+      "decisao": "alterado",
+      "sha256": "028fd8dbc81d51a0c6844a0647bc7eb8d52fa17d896b66960016878353d3b0c6"
+    },
+    "requirements.txt": {
+      "decisao": "mantido",
+      "sha256": "29b0dc2ce3704b319770b2d50ec8fc465da40c0c7991c2656559808f613eb6f2"
+    },
+    "translator.py": {
+      "decisao": "mantido",
+      "sha256": "30054f9dde26abdec945e64d149abbc2c5b86d97943004689ee42d834f734a6d"
+    },
+    "worker.py": {
+      "decisao": "alterado",
+      "sha256": "3954ac1503a0179e639a5e95a4c8a99d6d40b7773023ef349b26ecf6644c2e2f"
+    }
+  },
+  "criados": {
+    ".python-version": {
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    "requirements.lock": {
+      "sha256": "ac388210b5cbef12cee71e56e93aec4501b4fff00ea6a2343e66a87626045bf4"
+    },
+    "registro.py": {
+      "sha256": "5a2416ca0292a76e94e22927873fb8516fe64af74ec5a67621ae0758ff3fcb4f"
+    },
+    "docs/legado/Abrir_Screen_Translate_original_Fase0.bat": {
+      "sha256": "ea6443cd52d95db9903448b97f7587ef8f8d6fce4026d498ec31b22889c19d56",
+      "origem": "Abrir_Screen_Translate.bat"
+    },
+    "docs/legado/Criar_Atalho_Desktop_original_Fase0.bat": {
+      "sha256": "1935610966fd8c69893a65b3f00c86f13c467772339df66d535a4d361f1c0f99",
+      "origem": "Criar_Atalho_Desktop.bat"
+    },
+    "argos_dir.py": {
+      "sha256": "4d99eeed656ca25f1ac3e35798070d6eabfebee6d12e496ad98e5c862b5a5be1"
+    },
+    "mudanca.py": {
+      "sha256": "ddc3989999b99cd43ebab779d29081acfb9ae12426a2a46ae3a2e822a5a02d55"
+    },
+    "exclusao_da_captura.py": {
+      "sha256": "0bcf72e29b643be605f72ad7e3fef5100ef4de29c515a907aeaeff0a392c1738"
+    },
+    "CLAUDE.md": {
+      "sha256": "ab31d0f2da3e2ae4d30087f5e82e56dcdf0ce7da6f5cc3f00830ebebcd2e4e6f"
+    },
+    "AGENTES.md": {
+      "sha256": "6addcf363038eb5139ff3925482fae3d2af8e48108bd1a9e50481fadf67af67b"
+    },
+    "ROADMAP.md": {
+      "sha256": "25d239f9f2f4fd76269752e2f9fb181f2fa5c36c99f79e32af3ca0880ae17df1"
+    },
+    "PROMPT_DE_RETOMADA.md": {
+      "sha256": "84ed9281d6d996a6243935820a9c649896c4748a3dac78d07e0dcc54193de67e"
+    },
+    "bootstrap/__init__.py": {
+      "sha256": "9b7dded65069dbe5e72c925fe19c45789e28079017c4dac95c1a9e4c176571a7"
+    },
+    "bootstrap/__main__.py": {
+      "sha256": "07abac132790bb8533b18b733ea7e00032398cc814ed3503987614bd80740d1e"
+    },
+    "bootstrap/ambiente.py": {
+      "sha256": "271c1a8b64aab69df9367e8e4911a6471d93a8ff82fa396dbb8353aadab5ed07"
+    },
+    "bootstrap/atalho.py": {
+      "sha256": "1f7daf4fb49744ea3ec8f9d11c50e933ce32f2dce7128db10a2d67c1ffac81cd"
+    },
+    "bootstrap/cli.py": {
+      "sha256": "ad5760b09c34c2e93833cb46baf6de6744b14d4baf4c31f7ad3ccca39b8b7a06"
+    },
+    "bootstrap/constantes.py": {
+      "sha256": "d5624bf5b212719aaa2018257de6401102dd3569b8354823ee17710108d751de"
+    },
+    "bootstrap/diagnostico.py": {
+      "sha256": "81257dfed02ab42f62276e03d0b9c5c95795b755317a12eeb529ff5b413c8bbb"
+    },
+    "bootstrap/estado.py": {
+      "sha256": "859a59b64470ce1a70335fc0268f5770f30323bb4425fd5f9a11e80ed870820c"
+    },
+    "bootstrap/instalador.py": {
+      "sha256": "89ee21da835a91c8367e987e84efdaa177b1bb546017484e1a13b7d1f8331b41"
+    },
+    "bootstrap/lancador.py": {
+      "sha256": "68e18a012e59dac685bde1dcec6eab363ffb4ae859d351ecb30693c463ac32e0"
+    },
+    "bootstrap/modelos.py": {
+      "sha256": "c32e249047a4c2654132de66298d6522972823e1799fe7ccf75628b39e7f701c"
+    },
+    "bootstrap/telas.py": {
+      "sha256": "721c6f7a31c057d0408586b5b0d4e785f02a31ac27433e8c0f4436bc31b6c71d"
+    },
+    "geo/__init__.py": {
+      "sha256": "972b6d9d26692e2ebf213359b3b9d0d3a0be373954af7f684eb29e3f1b4c3218"
+    },
+    "geo/dpi.py": {
+      "sha256": "5eea719bd686728aa9c67b719caa35ff89cb194cf57e0dcb60ba3c61f77637e7"
+    },
+    "geo/geometria.py": {
+      "sha256": "c76a1929cd28de54f82bf62851a1757c0c633e68373ea59f2673e6980af62661"
+    },
+    "geo/monitores.py": {
+      "sha256": "97ca5e4a1fbc530f8c61bd3af7de29b9e0ba27d670bb08d5b021a56d417df142"
+    }
+  },
+  "configuracao": {
+    "ruff.toml": "1725f7034b818bef3250bf75fe39991a87bc0b4c8668996eb5941c98a131f3c2",
+    "mypy.ini": "df4969423b008cf4da7a2970ecae9b53530ecd40085473eb26a46a5ecf66501c",
+    "pytest.ini": "6ecbf645e0709f018a4a913e71ff40187269f730507cf82dd29779e5e24a06a7",
+    ".gitignore": "01721b22e5198c9136bd1c05f7c571df639726c03a177e29b63e854c0bcb0b2a",
+    ".gitattributes": "4c8e5a2a7249093f88f67fb40ed1a2a953a0ec14f3eaa9a28f83583d7a954c32"
+  }
+}

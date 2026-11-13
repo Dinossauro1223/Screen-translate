@@ -1,0 +1,69 @@
+.......s.........ss..s..s............................................... [  5%]
+..............xx...........x....................x.xx...x................ [ 10%]
+.............xx...xxxxxxx..x..xxxxxxx....ss............................. [ 15%]
+................................ss..ss.................................. [ 20%]
+........s............................................................... [ 25%]
+........................................................................ [ 31%]
+........................................................................ [ 36%]
+...........................................................sssssssss.... [ 41%]
+..ss..........s......................................................... [ 46%]
+........................................................................ [ 51%]
+........................................................................ [ 56%]
+........................................................................ [ 62%]
+........................................................................ [ 67%]
+....................................................s.s.s.s.s........... [ 72%]
+..............................s.s.s.s.s................................. [ 77%]
+........s.s.s.s.s.........................................s.s.s.s.s..... [ 82%]
+....................................s.........s......................... [ 87%]
+...................sssss................................................ [ 93%]
+...................s.................................................... [ 98%]
+..........xxxx.........                                                  [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/phase0/test_01_integridade_zip.py:68: a Fase 1 substituiu este teste por tests/phase1/test_01_manifesto_e_inventario.py
+SKIPPED [3] tests/phase0/test_03_importacao.py:18: importação real não exercitável neste ambiente: falta o pacote 'argostranslate'
+SKIPPED [1] tests/phase0/test_03_importacao.py:18: importação real não exercitável neste ambiente: falta o pacote 'llama_cpp'
+SKIPPED [1] tests/phase1/test_01_manifesto_e_inventario.py:62: a Fase 2 substituiu este teste por tests/phase2/test_00_manifesto_da_fase2.py
+SKIPPED [1] tests/phase1/test_01_manifesto_e_inventario.py:74: a Fase 2 substituiu este teste por tests/phase2/test_00_manifesto_da_fase2.py
+SKIPPED [1] tests/phase2/test_00_manifesto_da_fase2.py:29: a Fase 3 substituiu este teste por tests/phase3/test_00_manifesto_da_fase3.py
+SKIPPED [1] tests/phase2/test_00_manifesto_da_fase2.py:39: a Fase 3 substituiu este teste por tests/phase3/test_00_manifesto_da_fase3.py
+SKIPPED [1] tests/phase2/test_00_manifesto_da_fase2.py:63: a Fase 3 substituiu este teste por tests/phase3/test_00_manifesto_da_fase3.py
+SKIPPED [1] tests/phase2/test_00_manifesto_da_fase2.py:69: a Fase 3 substituiu este teste por tests/phase3/test_00_manifesto_da_fase3.py
+SKIPPED [1] tests/phase2/test_02_ambiente.py:134: o usuário root ignora permissões de pasta
+SKIPPED [6] tests/phase2/test_12_windows_real.py: só roda em Windows: não foi executado na sandbox de Linux (rode no seu computador)
+SKIPPED [3] tests/phase2/test_12_windows_real.py:60: só roda em Windows: não foi executado na sandbox de Linux (rode no seu computador)
+SKIPPED [1] tests/phase3/test_00_manifesto_da_fase3.py:30: a Fase 3.1 substituiu este teste por tests/phase31/test_00_manifesto_da_fase31.py
+SKIPPED [1] tests/phase3/test_00_manifesto_da_fase3.py:40: a Fase 3.1 substituiu este teste por tests/phase31/test_00_manifesto_da_fase31.py
+SKIPPED [1] tests/phase3/test_00_manifesto_da_fase3.py:72: a Fase 3.1 substituiu este teste por tests/phase31/test_00_manifesto_da_fase31.py
+SKIPPED [20] tests/phase3/test_06_cadeia_de_coordenadas.py:111: a 100% o modo com escala é a identidade (já coberto)
+SKIPPED [2] tests/phase3/test_06_cadeia_de_coordenadas.py:135: identidade
+SKIPPED [5] tests/phase3/test_09_windows_real.py: só roda em Windows: não foi executado na sandbox de Linux (rode no seu computador)
+SKIPPED [1] tests/phase31/test_03_argos_dir.py:120: o usuário root escreve em qualquer lugar
+XFAIL tests/phase0/test_06_modulos_nao_utilizados.py::test_worker_e_encerrado_pelo_codigo_que_o_cria - D12 | corrigir na Fase 13 | TranslateWorker.stop() nunca é chamado: ao sair, a thread de trabalho não é encerrada nem aguardada
+XFAIL tests/phase0/test_06_modulos_nao_utilizados.py::test_existe_traducao_em_lote_de_verdade - D13 | corrigir na Fase 8 | não existe tradução em lote: o translate_batch falso (laço sobre translate) foi removido na Fase 1; o lote real nasce com a interface TranslationEngine
+XFAIL tests/phase0/test_08_dependencias_declaradas.py::test_dependencia_opcional_tem_wheel_para_windows - D08 | corrigir na Fase 2/14 | llama-cpp-python (opcional) só tem sdist no PyPI para Windows: 'pip install' exige compilador C++ e o README não avisa
+XFAIL tests/phase0/test_11_doc_vs_comportamento.py::test_esc_encerra_o_programa_com_o_overlay_ativo - D02 | corrigir na Fase 12 | GUIA e main.py prometem ESC 'a qualquer momento', mas depois da seleção o overlay não trata teclas e é 'clique-através': só dá para sair matando o processo
+XFAIL tests/phase0/test_11_doc_vs_comportamento.py::test_overlay_atravessa_cliques_no_nivel_da_janela - D42 | corrigir na Fase 12 | overlay.py promete 'clique-através' só com WA_TransparentForMouseEvents; para janela de topo no Windows falta Qt.WindowTransparentForInput (WS_EX_TRANSPARENT): cliques sobre as caixas de tradução seriam engolidos
+XFAIL tests/phase0/test_11_doc_vs_comportamento.py::test_overlay_nao_rouba_o_foco - D43 | corrigir na Fase 12 | o overlay (Qt.Tool) é mostrado com show() comum e pode tirar o foco do aplicativo que está embaixo
+XFAIL tests/phase0/test_11_doc_vs_comportamento.py::test_ocr_aceita_configuracao_de_modelo_por_idioma - D20 | corrigir na Fase 4 | o OCR só usa os modelos padrão do wheel (PP-OCRv4 chinês+inglês): japonês e coreano falham na sonda; escolher o modelo por idioma é a Fase 4 (a promessa falsa na docstring foi removida na Fase 1)
+XFAIL tests/phase0/test_15_comportamento_critico.py::test_overlay_cobre_o_texto_original_com_fundo_branco_opaco - D29 | corrigir na Fase 11 | OVERLAY_BG_COLOR é preto translúcido (alpha 190) e o texto é branco: o texto original continua visível por baixo; o requisito é fundo branco OPACO + texto preto
+XFAIL tests/phase0/test_15_comportamento_critico.py::test_traducao_longa_nao_e_cortada - D44 | corrigir na Fase 11 | drawText() recorta o que não cabe: traduções maiores que o bbox do texto original saem CORTADAS (sem quebra adaptativa, sem redução de fonte, sem crescimento seguro da caixa)
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req01_idioma_de_origem_e_detectado_automaticamente - D28 | corrigir na Fase 6 | SOURCE_LANG='en' é fixo e não existe detecção de idioma por bloco
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req06_destino_e_portugues_do_brasil - D15 | corrigir na Fase 8 | TARGET_LANG='pt' é o código genérico; o índice do Argos tem 'pb' (português do Brasil) à parte e o requisito é pt-BR
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req11_fonte_tem_pilha_de_fallback - D30 | corrigir na Fase 11 | OVERLAY_FONT_FAMILY é uma única família ('Noto Sans', que não vem no Windows): sem pilha de fontes com fallback CJK/Unicode
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req16_estabilizacao_de_1_5_segundo_existe_na_configuracao - D31 | corrigir na Fase 10 | não existe espera de estabilização: qualquer hash novo dispara OCR+tradução na hora (requisito: 1,5 s após a ÚLTIMA alteração)
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req13_maquina_de_estados_explicita_existe - D32 | corrigir na Fase 10 | não há máquina de estados (STABLE/CHANGED/SCROLLING/WAITING_STABILIZATION/PROCESSING/DISPLAYING)
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req19_existe_cache_de_traducao - D33 | corrigir na Fase 8 | não há cache de tradução: cada mudança de hash retraduz TODAS as linhas, inclusive as idênticas
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req_blocos_tem_identificador_estavel - D34 | corrigir na Fase 9 | blocos não têm identificador estável nem rastreamento entre quadros
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_overlay_e_excluido_da_propria_captura - D37 | corrigir na Fase 12 | o overlay fica DENTRO da região capturada e o mss captura janelas em camadas (CAPTUREBLT): o OCR lê a própria tradução (laço de realimentação); não há SetWindowDisplayAffinity nem ocultação antes da captura
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req_etapas_rodam_em_workers_separados - D40 | corrigir na Fase 13 | captura, OCR, tradução e IA contextual rodam em sequência na MESMA thread; sem filas, prioridades ou descarte de trabalho obsoleto
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req_linhas_sao_agrupadas_antes_de_traduzir - D46 | corrigir na Fase 7/8 | cada linha do OCR é traduzida isoladamente (translate dentro do laço): não há agrupamento em balões nem ordem de leitura
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req_ocr_engine_e_interface_com_backends - D47 | corrigir na Fase 4 | OCREngine é uma classe concreta presa ao RapidOCR: não há interface com backends intercambiáveis
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req_translator_e_interface_com_backends - D48 | corrigir na Fase 8 | Translator é uma classe concreta presa ao Argos: não há TranslationEngine com backends intercambiáveis
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req_deteccao_de_mudanca_nao_usa_hash_exato - D49 | corrigir na Fase 10 | mudança detectada por MD5 da imagem inteira: 1 pixel diferente (cursor, animação, o PRÓPRIO overlay) dispara OCR+tradução; não distingue scroll de alteração de conteúdo
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req15_overlay_pode_ser_limpo_imediatamente - D50 | corrigir na Fase 10/12 | a tradução antiga só é substituída quando uma nova termina; não existe operação de limpar/invalidar o overlay quando a tela muda ou rola
+XFAIL tests/phase0/test_16_requisitos_vs_estado_atual.py::test_req_modelos_carregam_fora_da_thread_da_ui - D52 | corrigir na Fase 13/1 | App._on_region_selected carrega OCR e Argos (segundos) na thread da UI, dentro do slot, enquanto o seletor escuro continua na tela (close() só roda depois do emit)
+XFAIL tests/phase31/test_06_qualidade_da_traducao.py::test_ocr_preserva_os_espacos_entre_palavras_em_caixa_alta - C08 | corrigir na Fase a definir (OCR; entra no benchmark) | o OCR cola as palavras em linhas em caixa alta ('ICANNOTBELIEVE'); o aceite é preservar os espaços entre palavras
+XFAIL tests/phase31/test_06_qualidade_da_traducao.py::test_balao_com_varias_linhas_vira_uma_so_traducao - C06 | corrigir na Fase a definir (proposta: a próxima) | cada linha do balão é traduzida isolada: sobram frases sem sentido; o aceite é UMA tradução por balão, linhas na ordem de leitura
+XFAIL tests/phase31/test_06_qualidade_da_traducao.py::test_palavra_hifenizada_entre_linhas_e_reunida_antes_de_traduzir - C06 | corrigir na Fase a definir (proposta: a próxima) | palavra hifenizada entre duas linhas do balão chega ao tradutor como dois pedaços sem sentido; o aceite é reuni-la
+XFAIL tests/phase31/test_06_qualidade_da_traducao.py::test_duas_falas_distantes_continuam_separadas_e_cada_uma_inteira - C06 | corrigir na Fase a definir (proposta: a próxima) | balões distantes não podem ser fundidos: o aceite é uma tradução por balão mesmo com duas falas na mesma tela
+1311 passed, 52 skipped, 28 xfailed in 101.90s (0:01:41)

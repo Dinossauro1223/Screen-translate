@@ -1,0 +1,16 @@
+# Lint do projeto (Fase 1). Rodar na raiz: python -m ruff check .
+line-length = 100
+target-version = "py310"
+extend-exclude = ["tests/fixtures", "docs"]
+
+[lint]
+select = ["E", "F", "W", "B", "I", "UP"]
+
+[lint.per-file-ignores]
+"tests/**" = ["E501"]
+"tools/**" = ["E501"]
+# bootstrap e registro têm mensagens longas em português para o usuário; os módulos do aplicativo seguem o limite de 100
+"bootstrap/**" = ["E501"]
+"geo/**" = ["E501"]
+"registro.py" = ["E501"]
+"argos_dir.py" = ["E501"]     # roda no bootstrap (Python 3.8+): só biblioteca padrão e sintaxe compatível

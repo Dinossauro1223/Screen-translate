@@ -1,0 +1,110 @@
+{
+  "coletado_em": "2026-10-21",
+  "mutacoes": [
+    {
+      "id": "M01",
+      "arquivo": "main.py",
+      "efeito": "o OCR deixa de ser carregado antes do PyQt5 (a queda nativa do relatório volta)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_02_ordem_de_importacao.py::test_a_primeira_instrucao_do_bloco_protegido_carrega_o_ocr"
+    },
+    {
+      "id": "M02",
+      "arquivo": "main.py",
+      "efeito": "o Qt volta a encerrar o programa quando o seletor fecha e só sobra o overlay",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_05_ciclo_de_vida_e_worker.py::test_com_a_selecao_feita_o_programa_continua_vivo_e_sem_a_correcao_ele_sairia"
+    },
+    {
+      "id": "M03",
+      "arquivo": "main.py",
+      "efeito": "fechar o seletor sem escolher deixa um processo invisível",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_05_ciclo_de_vida_e_worker.py::test_fechar_o_seletor_sem_escolher_encerra_o_programa"
+    },
+    {
+      "id": "M04",
+      "arquivo": "worker.py",
+      "efeito": "o worker nunca desiste depois de falhas seguidas",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_05_ciclo_de_vida_e_worker.py::test_excecao_no_worker_vira_sinal_e_o_processo_sobrevive"
+    },
+    {
+      "id": "M05",
+      "arquivo": "worker.py",
+      "efeito": "o quadro que falhou não é tentado de novo (tela parada: sem tradução e sem aviso)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_05_ciclo_de_vida_e_worker.py::test_o_mesmo_quadro_e_tentado_de_novo_depois_de_uma_falha"
+    },
+    {
+      "id": "M06",
+      "arquivo": "worker.py",
+      "efeito": "a falha do worker não chega à interface",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_05_ciclo_de_vida_e_worker.py::test_excecao_no_worker_vira_sinal_e_o_processo_sobrevive"
+    },
+    {
+      "id": "M07",
+      "arquivo": "argos_dir.py",
+      "efeito": "no Windows com perfil ASCII o programa trocaria a pasta do Argos sem necessidade",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_03_argos_dir.py::test_perfil_ascii_no_windows_mantem_o_padrao_do_argos"
+    },
+    {
+      "id": "M08",
+      "arquivo": "argos_dir.py",
+      "efeito": "uma pasta candidata com acento seria aceita",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_03_argos_dir.py::test_candidata_com_acento_e_sempre_ignorada"
+    },
+    {
+      "id": "M09",
+      "arquivo": "bootstrap/ambiente.py",
+      "efeito": "a verificação de importações não aponta o módulo que derrubou o processo",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_01_importacoes_e_diagnostico.py::test_o_processo_que_cai_aponta_o_modulo_e_diz_que_depende_da_ordem"
+    },
+    {
+      "id": "M10",
+      "arquivo": "translator.py",
+      "efeito": "a frase de teste não é traduzida de verdade (o modelo não é carregado ao iniciar)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_04_traducao_de_teste.py::test_verificar_traduz_a_frase_de_teste_do_idioma_de_origem"
+    },
+    {
+      "id": "M11",
+      "arquivo": "install_language_pack.py",
+      "efeito": "o instalador volta a dizer 'Pronto' sem verificar o pacote",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_04_traducao_de_teste.py::test_instalacao_feliz_verifica_antes_de_dizer_pronto"
+    },
+    {
+      "id": "M12",
+      "arquivo": "main.py",
+      "efeito": "o app não testa a tradução ao iniciar (a falha volta a aparecer no worker)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_05_ciclo_de_vida_e_worker.py::test_modelo_que_nao_traduz_para_antes_de_existirem_overlay_e_worker"
+    },
+    {
+      "id": "M13",
+      "arquivo": "bootstrap/modelos.py",
+      "efeito": "o diagnóstico confunde 'o arquivo existe mas o caminho tem acento' com outro caso",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_04_traducao_de_teste.py::test_cada_falha_da_traducao_tem_a_sua_explicacao[info1-EXISTE-ARGOS_PACKAGES_DIR]"
+    },
+    {
+      "id": "M14",
+      "arquivo": "bootstrap/diagnostico.py",
+      "efeito": "o diagnóstico dá 'ok' ao par mesmo quando a tradução de teste falha",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_04_traducao_de_teste.py::test_diagnostico_separa_pacote_incompleto_de_caminho_com_acento"
+    },
+    {
+      "id": "M15",
+      "arquivo": "bootstrap/constantes.py",
+      "efeito": "o diagnóstico volta a importar o PyQt5 antes do OCR",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_01_importacoes_e_diagnostico.py::test_o_ocr_vem_antes_do_pyqt5_na_lista_de_importacoes_obrigatorias"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "coletado_em": "2026-10-17",
+  "mutacoes": [
+    {
+      "id": "M01",
+      "arquivo": "geo/geometria.py",
+      "efeito": "a seleção não é convertida de lógico para físico (a escala do Qt é ignorada)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_03_conversao_de_coordenadas.py::test_espaco_converte_quando_o_qt_usa_escala"
+    },
+    {
+      "id": "M02",
+      "arquivo": "geo/geometria.py",
+      "efeito": "o canto superior esquerdo da caixa do OCR não é convertido para o overlay",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_03_conversao_de_coordenadas.py::test_caixa_do_ocr_em_float_vai_para_o_overlay_e_volta_sem_perder_precisao[1.25]"
+    },
+    {
+      "id": "M03",
+      "arquivo": "geo/geometria.py",
+      "efeito": "a razão entre as réguas fica invertida",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_03_conversao_de_coordenadas.py::test_cantos_da_tela_viram_cantos_da_tela[1280x720@125%]"
+    },
+    {
+      "id": "M04",
+      "arquivo": "geo/geometria.py",
+      "efeito": "arredondar vira truncar (erra para números negativos e metades)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_01_geometria.py::test_arredondar_metade_para_cima[0.5-1]"
+    },
+    {
+      "id": "M05",
+      "arquivo": "geo/geometria.py",
+      "efeito": "região fora da área de trabalho deixa de ser recusada",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_02_validacao_de_regioes.py::test_um_pixel_alem_de_qualquer_borda_do_desktop_e_fora_da_tela[resolucao0-um_monitor]"
+    },
+    {
+      "id": "M06",
+      "arquivo": "capture.py",
+      "efeito": "a captura recorta a região em silêncio (a origem da imagem muda e o overlay sai deslocado)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_05_captura.py::test_regioes_invalidas_viram_regiao_invalida_com_o_motivo_e_nunca_chegam_ao_mss[regiao4-passa"
+    },
+    {
+      "id": "M07",
+      "arquivo": "capture.py",
+      "efeito": "um único objeto do mss para todas as threads (o D36 volta)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_05_captura.py::test_close_fecha_todos_os_objetos_e_a_captura_pode_ser_reusada"
+    },
+    {
+      "id": "M08",
+      "arquivo": "worker.py",
+      "efeito": "o ScreenCapture volta a nascer no __init__, na thread da UI (o D36 volta)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_05_captura.py::test_o_worker_cria_o_screen_capture_dentro_do_run_e_nao_no_init"
+    },
+    {
+      "id": "M09",
+      "arquivo": "worker.py",
+      "efeito": "a caixa absoluta sai 1 pixel mais baixa que a captura",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_06_cadeia_de_coordenadas.py::test_cadeia_completa_em_todas_as_escalas_e_resolucoes[1280x720@100%-um_monitor-mon1-qt_em_pixels_fisicos]"
+    },
+    {
+      "id": "M10",
+      "arquivo": "main.py",
+      "efeito": "o seletor esquece o canto da janela (quebra com monitores à esquerda ou acima do principal)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_07_selecao_e_aplicativo.py::test_seletor_devolve_coordenadas_globais_com_origem_negativa"
+    },
+    {
+      "id": "M11",
+      "arquivo": "main.py",
+      "efeito": "o worker captura a região na régua do Qt em vez da física",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_06_cadeia_de_coordenadas.py::test_cadeia_completa_em_todas_as_escalas_e_resolucoes[1280x720@125%-um_monitor-mon1-qt_com_escala]"
+    },
+    {
+      "id": "M12",
+      "arquivo": "main.py",
+      "efeito": "as caixas do OCR vão ao overlay sem conversão de escala",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_06_cadeia_de_coordenadas.py::test_cadeia_completa_em_todas_as_escalas_e_resolucoes[1280x720@125%-um_monitor-mon1-qt_com_escala]"
+    },
+    {
+      "id": "M13",
+      "arquivo": "geo/dpi.py",
+      "efeito": "a escala forçada no ambiente do usuário não é desfeita",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_04_monitores_e_dpi.py::test_variaveis_de_escala_do_qt_sao_removidas_e_desligadas"
+    },
+    {
+      "id": "M14",
+      "arquivo": "geo/monitores.py",
+      "efeito": "o pareamento entre monitores do Qt e do mss troca a ordem",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_04_monitores_e_dpi.py::test_qt_com_escala_e_reconhecido_e_converte_a_tela_inteira[dois_a_direita-1.25-resolucao0]"
+    },
+    {
+      "id": "M15",
+      "arquivo": "geo/geometria.py",
+      "efeito": "monitores espelhados contados duas vezes na cobertura",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_01_geometria.py::test_cobertura_com_buraco_e_com_monitores_espelhados"
+    },
+    {
+      "id": "M16",
+      "arquivo": "capture.py",
+      "efeito": "os monitores nunca são relidos (troca de resolução passa despercebida)",
+      "pego_pelos_testes": true,
+      "primeiro_teste_que_falhou": "test_05_captura.py::test_resolucao_trocada_com_o_programa_aberto_e_vista_na_proxima_revalidacao"
+    }
+  ]
+}

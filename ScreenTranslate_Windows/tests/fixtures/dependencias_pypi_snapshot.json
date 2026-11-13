@@ -1,0 +1,1228 @@
+{
+  "gerado_em": "2026-10-03",
+  "fonte": "https://pypi.org/pypi/<pacote>/json (Requires-Python completo + tags de wheel via packaging)",
+  "plataforma_alvo": "win_amd64",
+  "pythons_alvo": [
+    "3.10",
+    "3.11",
+    "3.12",
+    "3.13",
+    "3.14"
+  ],
+  "requisitos_diretos": {
+    "mss": {
+      "especificador": ">=9.0.1",
+      "ultima_versao": "10.2.0",
+      "requires_python_ultima": ">=3.9",
+      "licenca": "MIT License\n        Copyright (c) 2013-2026, Mickaël 'Tiger-222' Schoentgen\n    ",
+      "classificadores_licenca": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "10.2.0",
+          "tipo": "wheel",
+          "arquivo": "mss-10.2.0-py3-none-any.whl",
+          "tamanho_bytes": 67106,
+          "qtd_versoes_instalaveis": 5,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "10.2.0",
+          "tipo": "wheel",
+          "arquivo": "mss-10.2.0-py3-none-any.whl",
+          "tamanho_bytes": 67106,
+          "qtd_versoes_instalaveis": 5,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "10.2.0",
+          "tipo": "wheel",
+          "arquivo": "mss-10.2.0-py3-none-any.whl",
+          "tamanho_bytes": 67106,
+          "qtd_versoes_instalaveis": 5,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "10.2.0",
+          "tipo": "wheel",
+          "arquivo": "mss-10.2.0-py3-none-any.whl",
+          "tamanho_bytes": 67106,
+          "qtd_versoes_instalaveis": 5,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "10.2.0",
+          "tipo": "wheel",
+          "arquivo": "mss-10.2.0-py3-none-any.whl",
+          "tamanho_bytes": 67106,
+          "qtd_versoes_instalaveis": 5,
+          "melhor_so_sdist": false
+        }
+      }
+    },
+    "numpy": {
+      "especificador": ">=1.24",
+      "ultima_versao": "2.5.3",
+      "requires_python_ultima": ">=3.12",
+      "licenca": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "2.2.6",
+          "tipo": "wheel",
+          "arquivo": "numpy-2.2.6-cp310-cp310-win_amd64.whl",
+          "tamanho_bytes": 12904620,
+          "qtd_versoes_instalaveis": 27,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "2.4.6",
+          "tipo": "wheel",
+          "arquivo": "numpy-2.4.6-cp311-cp311-win_amd64.whl",
+          "tamanho_bytes": 12608406,
+          "qtd_versoes_instalaveis": 39,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "2.5.3",
+          "tipo": "wheel",
+          "arquivo": "numpy-2.5.3-cp312-cp312-win_amd64.whl",
+          "tamanho_bytes": 12567828,
+          "qtd_versoes_instalaveis": 43,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "2.5.3",
+          "tipo": "wheel",
+          "arquivo": "numpy-2.5.3-cp313-cp313-win_amd64.whl",
+          "tamanho_bytes": 12560965,
+          "qtd_versoes_instalaveis": 41,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "2.5.3",
+          "tipo": "wheel",
+          "arquivo": "numpy-2.5.3-cp314-cp314-win_amd64.whl",
+          "tamanho_bytes": 12698179,
+          "qtd_versoes_instalaveis": 41,
+          "melhor_so_sdist": false
+        }
+      }
+    },
+    "rapidocr-onnxruntime": {
+      "especificador": ">=1.3.24",
+      "ultima_versao": "1.4.4",
+      "requires_python_ultima": "<3.13,>=3.6",
+      "licenca": "Apache-2.0",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "1.4.4",
+          "tipo": "wheel",
+          "arquivo": "rapidocr_onnxruntime-1.4.4-py3-none-any.whl",
+          "tamanho_bytes": 14915192,
+          "qtd_versoes_instalaveis": 7,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "1.4.4",
+          "tipo": "wheel",
+          "arquivo": "rapidocr_onnxruntime-1.4.4-py3-none-any.whl",
+          "tamanho_bytes": 14915192,
+          "qtd_versoes_instalaveis": 7,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "1.4.4",
+          "tipo": "wheel",
+          "arquivo": "rapidocr_onnxruntime-1.4.4-py3-none-any.whl",
+          "tamanho_bytes": 14915192,
+          "qtd_versoes_instalaveis": 7,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": false,
+          "motivo": "nenhuma versão com Requires-Python compatível e wheel/sdist para o alvo"
+        },
+        "3.14": {
+          "instalavel": false,
+          "motivo": "nenhuma versão com Requires-Python compatível e wheel/sdist para o alvo"
+        }
+      }
+    },
+    "argostranslate": {
+      "especificador": ">=1.9.6",
+      "ultima_versao": "1.11.0",
+      "requires_python_ultima": ">=3.5",
+      "licenca": null,
+      "classificadores_licenca": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "1.11.0",
+          "tipo": "wheel",
+          "arquivo": "argostranslate-1.11.0-py3-none-any.whl",
+          "tamanho_bytes": 41551,
+          "qtd_versoes_instalaveis": 3,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "1.11.0",
+          "tipo": "wheel",
+          "arquivo": "argostranslate-1.11.0-py3-none-any.whl",
+          "tamanho_bytes": 41551,
+          "qtd_versoes_instalaveis": 3,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "1.11.0",
+          "tipo": "wheel",
+          "arquivo": "argostranslate-1.11.0-py3-none-any.whl",
+          "tamanho_bytes": 41551,
+          "qtd_versoes_instalaveis": 3,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "1.11.0",
+          "tipo": "wheel",
+          "arquivo": "argostranslate-1.11.0-py3-none-any.whl",
+          "tamanho_bytes": 41551,
+          "qtd_versoes_instalaveis": 3,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "1.11.0",
+          "tipo": "wheel",
+          "arquivo": "argostranslate-1.11.0-py3-none-any.whl",
+          "tamanho_bytes": 41551,
+          "qtd_versoes_instalaveis": 3,
+          "melhor_so_sdist": false
+        }
+      }
+    },
+    "PyQt5": {
+      "especificador": ">=5.15.9",
+      "ultima_versao": "5.15.11",
+      "requires_python_ultima": ">=3.8",
+      "licenca": "GPL v3",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "5.15.11",
+          "tipo": "wheel",
+          "arquivo": "PyQt5-5.15.11-cp38-abi3-win_amd64.whl",
+          "tamanho_bytes": 6865864,
+          "qtd_versoes_instalaveis": 3,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "5.15.11",
+          "tipo": "wheel",
+          "arquivo": "PyQt5-5.15.11-cp38-abi3-win_amd64.whl",
+          "tamanho_bytes": 6865864,
+          "qtd_versoes_instalaveis": 3,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "5.15.11",
+          "tipo": "wheel",
+          "arquivo": "PyQt5-5.15.11-cp38-abi3-win_amd64.whl",
+          "tamanho_bytes": 6865864,
+          "qtd_versoes_instalaveis": 3,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "5.15.11",
+          "tipo": "wheel",
+          "arquivo": "PyQt5-5.15.11-cp38-abi3-win_amd64.whl",
+          "tamanho_bytes": 6865864,
+          "qtd_versoes_instalaveis": 3,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "5.15.11",
+          "tipo": "wheel",
+          "arquivo": "PyQt5-5.15.11-cp38-abi3-win_amd64.whl",
+          "tamanho_bytes": 6865864,
+          "qtd_versoes_instalaveis": 3,
+          "melhor_so_sdist": false
+        }
+      }
+    }
+  },
+  "requisitos_opcionais": {
+    "llama-cpp-python": {
+      "especificador": ">=0.2.90",
+      "ultima_versao": "0.3.36",
+      "requires_python_ultima": ">=3.8",
+      "licenca": "MIT",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "0.3.36",
+          "tipo": "sdist",
+          "arquivo": "llama_cpp_python-0.3.36.tar.gz",
+          "tamanho_bytes": 76589250,
+          "qtd_versoes_instalaveis": 38,
+          "melhor_so_sdist": true
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "0.3.36",
+          "tipo": "sdist",
+          "arquivo": "llama_cpp_python-0.3.36.tar.gz",
+          "tamanho_bytes": 76589250,
+          "qtd_versoes_instalaveis": 38,
+          "melhor_so_sdist": true
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "0.3.36",
+          "tipo": "sdist",
+          "arquivo": "llama_cpp_python-0.3.36.tar.gz",
+          "tamanho_bytes": 76589250,
+          "qtd_versoes_instalaveis": 38,
+          "melhor_so_sdist": true
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "0.3.36",
+          "tipo": "sdist",
+          "arquivo": "llama_cpp_python-0.3.36.tar.gz",
+          "tamanho_bytes": 76589250,
+          "qtd_versoes_instalaveis": 38,
+          "melhor_so_sdist": true
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "0.3.36",
+          "tipo": "sdist",
+          "arquivo": "llama_cpp_python-0.3.36.tar.gz",
+          "tamanho_bytes": 76589250,
+          "qtd_versoes_instalaveis": 38,
+          "melhor_so_sdist": true
+        }
+      }
+    }
+  },
+  "pacotes_extras": {
+    "rapidocr": {
+      "especificador": "(sem restrição)",
+      "ultima_versao": "3.9.2",
+      "requires_python_ultima": "<4,>=3.8",
+      "licenca": "Apache-2.0",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "3.9.2",
+          "tipo": "wheel",
+          "arquivo": "rapidocr-3.9.2-py3-none-any.whl",
+          "tamanho_bytes": 27275208,
+          "qtd_versoes_instalaveis": 29,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "3.9.2",
+          "tipo": "wheel",
+          "arquivo": "rapidocr-3.9.2-py3-none-any.whl",
+          "tamanho_bytes": 27275208,
+          "qtd_versoes_instalaveis": 29,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "3.9.2",
+          "tipo": "wheel",
+          "arquivo": "rapidocr-3.9.2-py3-none-any.whl",
+          "tamanho_bytes": 27275208,
+          "qtd_versoes_instalaveis": 29,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "3.9.2",
+          "tipo": "wheel",
+          "arquivo": "rapidocr-3.9.2-py3-none-any.whl",
+          "tamanho_bytes": 27275208,
+          "qtd_versoes_instalaveis": 24,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "3.9.2",
+          "tipo": "wheel",
+          "arquivo": "rapidocr-3.9.2-py3-none-any.whl",
+          "tamanho_bytes": 27275208,
+          "qtd_versoes_instalaveis": 24,
+          "melhor_so_sdist": false
+        }
+      }
+    },
+    "onnxruntime": {
+      "especificador": "(sem restrição)",
+      "ultima_versao": "1.30.0",
+      "requires_python_ultima": ">=3.11",
+      "licenca": "MIT License",
+      "classificadores_licenca": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "1.23.2",
+          "tipo": "wheel",
+          "arquivo": "onnxruntime-1.23.2-cp310-cp310-win_amd64.whl",
+          "tamanho_bytes": 13467651,
+          "qtd_versoes_instalaveis": 27,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "1.30.0",
+          "tipo": "wheel",
+          "arquivo": "onnxruntime-1.30.0-cp311-cp311-win_amd64.whl",
+          "tamanho_bytes": 14309136,
+          "qtd_versoes_instalaveis": 33,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "1.30.0",
+          "tipo": "wheel",
+          "arquivo": "onnxruntime-1.30.0-cp312-cp312-win_amd64.whl",
+          "tamanho_bytes": 14311470,
+          "qtd_versoes_instalaveis": 27,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "1.30.0",
+          "tipo": "wheel",
+          "arquivo": "onnxruntime-1.30.0-cp313-cp313-win_amd64.whl",
+          "tamanho_bytes": 14311378,
+          "qtd_versoes_instalaveis": 20,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "1.30.0",
+          "tipo": "wheel",
+          "arquivo": "onnxruntime-1.30.0-cp314-cp314-win_amd64.whl",
+          "tamanho_bytes": 14675319,
+          "qtd_versoes_instalaveis": 11,
+          "melhor_so_sdist": false
+        }
+      }
+    },
+    "ctranslate2": {
+      "especificador": "(sem restrição)",
+      "ultima_versao": "4.8.2",
+      "requires_python_ultima": ">=3.9",
+      "licenca": "MIT",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "4.8.2",
+          "tipo": "wheel",
+          "arquivo": "ctranslate2-4.8.2-cp310-cp310-win_amd64.whl",
+          "tamanho_bytes": 19219507,
+          "qtd_versoes_instalaveis": 61,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "4.8.2",
+          "tipo": "wheel",
+          "arquivo": "ctranslate2-4.8.2-cp311-cp311-win_amd64.whl",
+          "tamanho_bytes": 19220522,
+          "qtd_versoes_instalaveis": 53,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "4.8.2",
+          "tipo": "wheel",
+          "arquivo": "ctranslate2-4.8.2-cp312-cp312-win_amd64.whl",
+          "tamanho_bytes": 19222069,
+          "qtd_versoes_instalaveis": 22,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "4.8.2",
+          "tipo": "wheel",
+          "arquivo": "ctranslate2-4.8.2-cp313-cp313-win_amd64.whl",
+          "tamanho_bytes": 19222061,
+          "qtd_versoes_instalaveis": 10,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "4.8.2",
+          "tipo": "wheel",
+          "arquivo": "ctranslate2-4.8.2-cp314-cp314-win_amd64.whl",
+          "tamanho_bytes": 19478465,
+          "qtd_versoes_instalaveis": 9,
+          "melhor_so_sdist": false
+        }
+      }
+    },
+    "stanza": {
+      "especificador": "(sem restrição)",
+      "ultima_versao": "1.15.0",
+      "requires_python_ultima": ">=3.9",
+      "licenca": "Apache License 2.0",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "1.15.0",
+          "tipo": "wheel",
+          "arquivo": "stanza-1.15.0-py3-none-any.whl",
+          "tamanho_bytes": 2041107,
+          "qtd_versoes_instalaveis": 33,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "1.15.0",
+          "tipo": "wheel",
+          "arquivo": "stanza-1.15.0-py3-none-any.whl",
+          "tamanho_bytes": 2041107,
+          "qtd_versoes_instalaveis": 33,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "1.15.0",
+          "tipo": "wheel",
+          "arquivo": "stanza-1.15.0-py3-none-any.whl",
+          "tamanho_bytes": 2041107,
+          "qtd_versoes_instalaveis": 33,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "1.15.0",
+          "tipo": "wheel",
+          "arquivo": "stanza-1.15.0-py3-none-any.whl",
+          "tamanho_bytes": 2041107,
+          "qtd_versoes_instalaveis": 33,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "1.15.0",
+          "tipo": "wheel",
+          "arquivo": "stanza-1.15.0-py3-none-any.whl",
+          "tamanho_bytes": 2041107,
+          "qtd_versoes_instalaveis": 33,
+          "melhor_so_sdist": false
+        }
+      }
+    },
+    "torch": {
+      "especificador": "(sem restrição)",
+      "ultima_versao": "2.14.1",
+      "requires_python_ultima": ">=3.10",
+      "licenca": "Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "2.14.1",
+          "tipo": "wheel",
+          "arquivo": "torch-2.14.1-cp310-cp310-win_amd64.whl",
+          "tamanho_bytes": 124096027,
+          "qtd_versoes_instalaveis": 32,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "2.14.1",
+          "tipo": "wheel",
+          "arquivo": "torch-2.14.1-cp311-cp311-win_amd64.whl",
+          "tamanho_bytes": 124096268,
+          "qtd_versoes_instalaveis": 27,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "2.14.1",
+          "tipo": "wheel",
+          "arquivo": "torch-2.14.1-cp312-cp312-win_amd64.whl",
+          "tamanho_bytes": 124113906,
+          "qtd_versoes_instalaveis": 22,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "2.14.1",
+          "tipo": "wheel",
+          "arquivo": "torch-2.14.1-cp313-cp313-win_amd64.whl",
+          "tamanho_bytes": 124113754,
+          "qtd_versoes_instalaveis": 13,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "2.14.1",
+          "tipo": "wheel",
+          "arquivo": "torch-2.14.1-cp314-cp314-win_amd64.whl",
+          "tamanho_bytes": 124110781,
+          "qtd_versoes_instalaveis": 9,
+          "melhor_so_sdist": false
+        }
+      }
+    },
+    "PySide6": {
+      "especificador": "(sem restrição)",
+      "ultima_versao": "6.11.2",
+      "requires_python_ultima": "<3.15,>=3.10",
+      "licenca": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "6.11.2",
+          "tipo": "wheel",
+          "arquivo": "pyside6-6.11.2-cp310-abi3-win_amd64.whl",
+          "tamanho_bytes": 578382,
+          "qtd_versoes_instalaveis": 46,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "6.11.2",
+          "tipo": "wheel",
+          "arquivo": "pyside6-6.11.2-cp310-abi3-win_amd64.whl",
+          "tamanho_bytes": 578382,
+          "qtd_versoes_instalaveis": 37,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "6.11.2",
+          "tipo": "wheel",
+          "arquivo": "pyside6-6.11.2-cp310-abi3-win_amd64.whl",
+          "tamanho_bytes": 578382,
+          "qtd_versoes_instalaveis": 28,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "6.11.2",
+          "tipo": "wheel",
+          "arquivo": "pyside6-6.11.2-cp310-abi3-win_amd64.whl",
+          "tamanho_bytes": 578382,
+          "qtd_versoes_instalaveis": 17,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "6.11.2",
+          "tipo": "wheel",
+          "arquivo": "pyside6-6.11.2-cp310-abi3-win_amd64.whl",
+          "tamanho_bytes": 578382,
+          "qtd_versoes_instalaveis": 6,
+          "melhor_so_sdist": false
+        }
+      }
+    },
+    "paddleocr": {
+      "especificador": "(sem restrição)",
+      "ultima_versao": "3.7.0",
+      "requires_python_ultima": ">=3.8",
+      "licenca": "Apache License 2.0",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "3.7.0",
+          "tipo": "wheel",
+          "arquivo": "paddleocr-3.7.0-py3-none-any.whl",
+          "tamanho_bytes": 146750,
+          "qtd_versoes_instalaveis": 63,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "3.7.0",
+          "tipo": "wheel",
+          "arquivo": "paddleocr-3.7.0-py3-none-any.whl",
+          "tamanho_bytes": 146750,
+          "qtd_versoes_instalaveis": 63,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "3.7.0",
+          "tipo": "wheel",
+          "arquivo": "paddleocr-3.7.0-py3-none-any.whl",
+          "tamanho_bytes": 146750,
+          "qtd_versoes_instalaveis": 63,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "3.7.0",
+          "tipo": "wheel",
+          "arquivo": "paddleocr-3.7.0-py3-none-any.whl",
+          "tamanho_bytes": 146750,
+          "qtd_versoes_instalaveis": 63,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "3.7.0",
+          "tipo": "wheel",
+          "arquivo": "paddleocr-3.7.0-py3-none-any.whl",
+          "tamanho_bytes": 146750,
+          "qtd_versoes_instalaveis": 63,
+          "melhor_so_sdist": false
+        }
+      }
+    },
+    "manga-ocr": {
+      "especificador": "(sem restrição)",
+      "ultima_versao": "0.1.16",
+      "requires_python_ultima": ">=3.9",
+      "licenca": "Apache License\n                                   Version 2.0, January 2004\n    ",
+      "classificadores_licenca": [],
+      "por_python": {
+        "3.10": {
+          "instalavel": true,
+          "melhor_versao": "0.1.16",
+          "tipo": "wheel",
+          "arquivo": "manga_ocr-0.1.16-py3-none-any.whl",
+          "tamanho_bytes": 69655,
+          "qtd_versoes_instalaveis": 16,
+          "melhor_so_sdist": false
+        },
+        "3.11": {
+          "instalavel": true,
+          "melhor_versao": "0.1.16",
+          "tipo": "wheel",
+          "arquivo": "manga_ocr-0.1.16-py3-none-any.whl",
+          "tamanho_bytes": 69655,
+          "qtd_versoes_instalaveis": 16,
+          "melhor_so_sdist": false
+        },
+        "3.12": {
+          "instalavel": true,
+          "melhor_versao": "0.1.16",
+          "tipo": "wheel",
+          "arquivo": "manga_ocr-0.1.16-py3-none-any.whl",
+          "tamanho_bytes": 69655,
+          "qtd_versoes_instalaveis": 16,
+          "melhor_so_sdist": false
+        },
+        "3.13": {
+          "instalavel": true,
+          "melhor_versao": "0.1.16",
+          "tipo": "wheel",
+          "arquivo": "manga_ocr-0.1.16-py3-none-any.whl",
+          "tamanho_bytes": 69655,
+          "qtd_versoes_instalaveis": 16,
+          "melhor_so_sdist": false
+        },
+        "3.14": {
+          "instalavel": true,
+          "melhor_versao": "0.1.16",
+          "tipo": "wheel",
+          "arquivo": "manga_ocr-0.1.16-py3-none-any.whl",
+          "tamanho_bytes": 69655,
+          "qtd_versoes_instalaveis": 16,
+          "melhor_so_sdist": false
+        }
+      }
+    }
+  },
+  "resolucao_transitiva_cp312": {
+    "python": "3.12",
+    "plataforma": "win_amd64",
+    "qtd_pacotes": 75,
+    "total_bytes_download_wheels": 340820905,
+    "pacotes": {
+      "annotated-doc": {
+        "versao": "0.0.5",
+        "tipo": "wheel",
+        "arquivo": "annotated_doc-0.0.5-py3-none-any.whl",
+        "tamanho_bytes": 5302
+      },
+      "annotated-types": {
+        "versao": "0.8.0",
+        "tipo": "wheel",
+        "arquivo": "annotated_types-0.8.0-py3-none-any.whl",
+        "tamanho_bytes": 13427
+      },
+      "anyio": {
+        "versao": "4.15.1",
+        "tipo": "wheel",
+        "arquivo": "anyio-4.15.1-py3-none-any.whl",
+        "tamanho_bytes": 132079
+      },
+      "argostranslate": {
+        "versao": "1.11.0",
+        "tipo": "wheel",
+        "arquivo": "argostranslate-1.11.0-py3-none-any.whl",
+        "tamanho_bytes": 41551
+      },
+      "blis": {
+        "versao": "1.3.3",
+        "tipo": "wheel",
+        "arquivo": "blis-1.3.3-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 6192759
+      },
+      "catalogue": {
+        "versao": "2.0.10",
+        "tipo": "wheel",
+        "arquivo": "catalogue-2.0.10-py3-none-any.whl",
+        "tamanho_bytes": 17325
+      },
+      "certifi": {
+        "versao": "2026.7.22",
+        "tipo": "wheel",
+        "arquivo": "certifi-2026.7.22-py3-none-any.whl",
+        "tamanho_bytes": 136983
+      },
+      "charset-normalizer": {
+        "versao": "3.5.2",
+        "tipo": "wheel",
+        "arquivo": "charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 207486
+      },
+      "click": {
+        "versao": "8.5.0",
+        "tipo": "wheel",
+        "arquivo": "click-8.5.0-py3-none-any.whl",
+        "tamanho_bytes": 125251
+      },
+      "cloudpathlib": {
+        "versao": "0.26.0",
+        "tipo": "wheel",
+        "arquivo": "cloudpathlib-0.26.0-py3-none-any.whl",
+        "tamanho_bytes": 66408
+      },
+      "cloudpickle": {
+        "versao": "3.1.2",
+        "tipo": "wheel",
+        "arquivo": "cloudpickle-3.1.2-py3-none-any.whl",
+        "tamanho_bytes": 22228
+      },
+      "colorama": {
+        "versao": "0.4.6",
+        "tipo": "wheel",
+        "arquivo": "colorama-0.4.6-py2.py3-none-any.whl",
+        "tamanho_bytes": 25335
+      },
+      "confection": {
+        "versao": "1.3.3",
+        "tipo": "wheel",
+        "arquivo": "confection-1.3.3-py3-none-any.whl",
+        "tamanho_bytes": 35902
+      },
+      "ctranslate2": {
+        "versao": "4.8.2",
+        "tipo": "wheel",
+        "arquivo": "ctranslate2-4.8.2-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 19222069
+      },
+      "cymem": {
+        "versao": "2.0.13",
+        "tipo": "wheel",
+        "arquivo": "cymem-2.0.13-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 40176
+      },
+      "emoji": {
+        "versao": "2.16.0",
+        "tipo": "wheel",
+        "arquivo": "emoji-2.16.0-py3-none-any.whl",
+        "tamanho_bytes": 610912
+      },
+      "filelock": {
+        "versao": "4.0.10",
+        "tipo": "wheel",
+        "arquivo": "filelock-4.0.10-py3-none-any.whl",
+        "tamanho_bytes": 111193
+      },
+      "flatbuffers": {
+        "versao": "25.12.19",
+        "tipo": "wheel",
+        "arquivo": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+        "tamanho_bytes": 26661
+      },
+      "fsspec": {
+        "versao": "2026.9.0",
+        "tipo": "wheel",
+        "arquivo": "fsspec-2026.9.0-py3-none-any.whl",
+        "tamanho_bytes": 221738
+      },
+      "h11": {
+        "versao": "0.16.0",
+        "tipo": "wheel",
+        "arquivo": "h11-0.16.0-py3-none-any.whl",
+        "tamanho_bytes": 37515
+      },
+      "httpcore": {
+        "versao": "1.0.9",
+        "tipo": "wheel",
+        "arquivo": "httpcore-1.0.9-py3-none-any.whl",
+        "tamanho_bytes": 78784
+      },
+      "httpx": {
+        "versao": "0.28.1",
+        "tipo": "wheel",
+        "arquivo": "httpx-0.28.1-py3-none-any.whl",
+        "tamanho_bytes": 73517
+      },
+      "idna": {
+        "versao": "3.20",
+        "tipo": "wheel",
+        "arquivo": "idna-3.20-py3-none-any.whl",
+        "tamanho_bytes": 69583
+      },
+      "jinja2": {
+        "versao": "3.1.6",
+        "tipo": "wheel",
+        "arquivo": "jinja2-3.1.6-py3-none-any.whl",
+        "tamanho_bytes": 134899
+      },
+      "joblib": {
+        "versao": "1.6.0",
+        "tipo": "wheel",
+        "arquivo": "joblib-1.6.0-py3-none-any.whl",
+        "tamanho_bytes": 306115
+      },
+      "markdown-it-py": {
+        "versao": "4.2.0",
+        "tipo": "wheel",
+        "arquivo": "markdown_it_py-4.2.0-py3-none-any.whl",
+        "tamanho_bytes": 91687
+      },
+      "markupsafe": {
+        "versao": "3.0.4",
+        "tipo": "wheel",
+        "arquivo": "markupsafe-3.0.4-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 14303
+      },
+      "mdurl": {
+        "versao": "0.1.2",
+        "tipo": "wheel",
+        "arquivo": "mdurl-0.1.2-py3-none-any.whl",
+        "tamanho_bytes": 9979
+      },
+      "minisbd": {
+        "versao": "0.9.5",
+        "tipo": "wheel",
+        "arquivo": "minisbd-0.9.5-py3-none-any.whl",
+        "tamanho_bytes": 41125
+      },
+      "mpmath": {
+        "versao": "1.3.0",
+        "tipo": "wheel",
+        "arquivo": "mpmath-1.3.0-py3-none-any.whl",
+        "tamanho_bytes": 536198
+      },
+      "mss": {
+        "versao": "10.2.0",
+        "tipo": "wheel",
+        "arquivo": "mss-10.2.0-py3-none-any.whl",
+        "tamanho_bytes": 67106
+      },
+      "murmurhash": {
+        "versao": "1.0.15",
+        "tipo": "wheel",
+        "arquivo": "murmurhash-1.0.15-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 25647
+      },
+      "networkx": {
+        "versao": "3.7",
+        "tipo": "wheel",
+        "arquivo": "networkx-3.7-py3-none-any.whl",
+        "tamanho_bytes": 2142205
+      },
+      "numpy": {
+        "versao": "2.5.3",
+        "tipo": "wheel",
+        "arquivo": "numpy-2.5.3-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 12567828
+      },
+      "onnxruntime": {
+        "versao": "1.30.0",
+        "tipo": "wheel",
+        "arquivo": "onnxruntime-1.30.0-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 14311470
+      },
+      "opencv-python": {
+        "versao": "5.0.0.93",
+        "tipo": "wheel",
+        "arquivo": "opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl",
+        "tamanho_bytes": 44000345
+      },
+      "packaging": {
+        "versao": "26.3",
+        "tipo": "wheel",
+        "arquivo": "packaging-26.3-py3-none-any.whl",
+        "tamanho_bytes": 129956
+      },
+      "pillow": {
+        "versao": "12.3.0",
+        "tipo": "wheel",
+        "arquivo": "pillow-12.3.0-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 7227137
+      },
+      "preshed": {
+        "versao": "3.0.13",
+        "tipo": "wheel",
+        "arquivo": "preshed-3.0.13-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 122938
+      },
+      "protobuf": {
+        "versao": "7.36.2",
+        "tipo": "wheel",
+        "arquivo": "protobuf-7.36.2-cp310-abi3-win_amd64.whl",
+        "tamanho_bytes": 456514
+      },
+      "pyclipper": {
+        "versao": "1.4.0",
+        "tipo": "wheel",
+        "arquivo": "pyclipper-1.4.0-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 104619
+      },
+      "pydantic": {
+        "versao": "2.13.5",
+        "tipo": "wheel",
+        "arquivo": "pydantic-2.13.5-py3-none-any.whl",
+        "tamanho_bytes": 472589
+      },
+      "pydantic-core": {
+        "versao": "2.46.5",
+        "tipo": "wheel",
+        "arquivo": "pydantic_core-2.46.5-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 2043140
+      },
+      "pygments": {
+        "versao": "2.21.0",
+        "tipo": "wheel",
+        "arquivo": "pygments-2.21.0-py3-none-any.whl",
+        "tamanho_bytes": 1250147
+      },
+      "pyqt5": {
+        "versao": "5.15.11",
+        "tipo": "wheel",
+        "arquivo": "PyQt5-5.15.11-cp38-abi3-win_amd64.whl",
+        "tamanho_bytes": 6865864
+      },
+      "pyqt5-qt5": {
+        "versao": "5.15.2",
+        "tipo": "wheel",
+        "arquivo": "PyQt5_Qt5-5.15.2-py3-none-win_amd64.whl",
+        "tamanho_bytes": 50075158
+      },
+      "pyqt5-sip": {
+        "versao": "12.19.0",
+        "tipo": "wheel",
+        "arquivo": "pyqt5_sip-12.19.0-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 57830
+      },
+      "pyyaml": {
+        "versao": "6.0.3",
+        "tipo": "wheel",
+        "arquivo": "pyyaml-6.0.3-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 154003
+      },
+      "rapidocr-onnxruntime": {
+        "versao": "1.4.4",
+        "tipo": "wheel",
+        "arquivo": "rapidocr_onnxruntime-1.4.4-py3-none-any.whl",
+        "tamanho_bytes": 14915192
+      },
+      "regex": {
+        "versao": "2026.9.29",
+        "tipo": "wheel",
+        "arquivo": "regex-2026.9.29-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 280334
+      },
+      "requests": {
+        "versao": "2.34.2",
+        "tipo": "wheel",
+        "arquivo": "requests-2.34.2-py3-none-any.whl",
+        "tamanho_bytes": 73075
+      },
+      "rich": {
+        "versao": "15.0.0",
+        "tipo": "wheel",
+        "arquivo": "rich-15.0.0-py3-none-any.whl",
+        "tamanho_bytes": 310654
+      },
+      "sacremoses": {
+        "versao": "0.1.1",
+        "tipo": "wheel",
+        "arquivo": "sacremoses-0.1.1-py3-none-any.whl",
+        "tamanho_bytes": 897476
+      },
+      "sentencepiece": {
+        "versao": "0.2.2",
+        "tipo": "wheel",
+        "arquivo": "sentencepiece-0.2.2-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 1248030
+      },
+      "setuptools": {
+        "versao": "84.0.0",
+        "tipo": "wheel",
+        "arquivo": "setuptools-84.0.0-py3-none-any.whl",
+        "tamanho_bytes": 818216
+      },
+      "shapely": {
+        "versao": "2.1.2",
+        "tipo": "wheel",
+        "arquivo": "shapely-2.1.2-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 1722861
+      },
+      "shellingham": {
+        "versao": "1.5.4",
+        "tipo": "wheel",
+        "arquivo": "shellingham-1.5.4-py2.py3-none-any.whl",
+        "tamanho_bytes": 9755
+      },
+      "six": {
+        "versao": "1.17.0",
+        "tipo": "wheel",
+        "arquivo": "six-1.17.0-py2.py3-none-any.whl",
+        "tamanho_bytes": 11050
+      },
+      "smart-open": {
+        "versao": "8.0.2",
+        "tipo": "wheel",
+        "arquivo": "smart_open-8.0.2-py3-none-any.whl",
+        "tamanho_bytes": 73414
+      },
+      "spacy": {
+        "versao": "3.8.16",
+        "tipo": "wheel",
+        "arquivo": "spacy-3.8.16-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 15180961
+      },
+      "spacy-legacy": {
+        "versao": "3.0.12",
+        "tipo": "wheel",
+        "arquivo": "spacy_legacy-3.0.12-py2.py3-none-any.whl",
+        "tamanho_bytes": 29971
+      },
+      "spacy-loggers": {
+        "versao": "1.0.5",
+        "tipo": "wheel",
+        "arquivo": "spacy_loggers-1.0.5-py3-none-any.whl",
+        "tamanho_bytes": 22343
+      },
+      "srsly": {
+        "versao": "2.5.4",
+        "tipo": "wheel",
+        "arquivo": "srsly-2.5.4-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 674274
+      },
+      "stanza": {
+        "versao": "1.10.1",
+        "tipo": "wheel",
+        "arquivo": "stanza-1.10.1-py3-none-any.whl",
+        "tamanho_bytes": 1112060
+      },
+      "sympy": {
+        "versao": "1.14.0",
+        "tipo": "wheel",
+        "arquivo": "sympy-1.14.0-py3-none-any.whl",
+        "tamanho_bytes": 6299353
+      },
+      "thinc": {
+        "versao": "8.3.13",
+        "tipo": "wheel",
+        "arquivo": "thinc-8.3.13-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 1721248
+      },
+      "torch": {
+        "versao": "2.14.1",
+        "tipo": "wheel",
+        "arquivo": "torch-2.14.1-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 124113906
+      },
+      "tqdm": {
+        "versao": "4.70.1",
+        "tipo": "wheel",
+        "arquivo": "tqdm-4.70.1-py3-none-any.whl",
+        "tamanho_bytes": 80199
+      },
+      "typer": {
+        "versao": "0.27.2",
+        "tipo": "wheel",
+        "arquivo": "typer-0.27.2-py3-none-any.whl",
+        "tamanho_bytes": 123130
+      },
+      "typing-extensions": {
+        "versao": "4.16.0",
+        "tipo": "wheel",
+        "arquivo": "typing_extensions-4.16.0-py3-none-any.whl",
+        "tamanho_bytes": 45571
+      },
+      "typing-inspection": {
+        "versao": "0.4.4",
+        "tipo": "wheel",
+        "arquivo": "typing_inspection-0.4.4-py3-none-any.whl",
+        "tamanho_bytes": 14750
+      },
+      "urllib3": {
+        "versao": "2.8.0",
+        "tipo": "wheel",
+        "arquivo": "urllib3-2.8.0-py3-none-any.whl",
+        "tamanho_bytes": 135717
+      },
+      "wasabi": {
+        "versao": "1.1.3",
+        "tipo": "wheel",
+        "arquivo": "wasabi-1.1.3-py3-none-any.whl",
+        "tamanho_bytes": 27880
+      },
+      "weasel": {
+        "versao": "1.0.0",
+        "tipo": "wheel",
+        "arquivo": "weasel-1.0.0-py3-none-any.whl",
+        "tamanho_bytes": 50713
+      },
+      "wrapt": {
+        "versao": "2.5.0",
+        "tipo": "wheel",
+        "arquivo": "wrapt-2.5.0-cp312-cp312-win_amd64.whl",
+        "tamanho_bytes": 105786
+      }
+    }
+  }
+}
